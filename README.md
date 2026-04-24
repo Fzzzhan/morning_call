@@ -449,7 +449,7 @@ A: No. The system records all displayed content IDs and won't recommend duplicat
 
 ## 📄 License
 
-(To be added)
+MIT
 
 ## 🤝 Contributing
 
@@ -457,4 +457,4 @@ Issues and Pull Requests are welcome!
 
 ## Author
 
-In development...
+Fengze Han
