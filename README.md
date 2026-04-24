@@ -56,6 +56,75 @@ cmake --build build
 - **morning_call** - 控制台版本，在终端显示内容
 - **morning_call_gui** - GUI 版本，图形化界面
 
+## 📦 系统安装
+
+### 安装到系统
+
+将程序安装到系统路径，方便全局访问：
+
+```bash
+# 安装到系统（需要 sudo 权限）
+sudo cmake --install build
+
+# 或者指定安装前缀（无需 sudo）
+cmake --install build --prefix ~/.local
+```
+
+**安装内容：**
+- 可执行文件 → `/usr/local/bin/` 或 `~/.local/bin/`
+  - `morning_call` - 控制台版本
+  - `morning_call_gui` - GUI 版本
+- 桌面启动器 → `/usr/local/share/applications/morning_call.desktop`
+- 应用图标 → `/usr/local/share/icons/hicolor/256x256/apps/morning_call.png`
+
+### 安装后使用
+
+```bash
+# 在任何目录直接运行
+morning_call_gui
+
+# 或从应用菜单启动
+# 打开应用程序 → Utility → Morning Call
+```
+
+### 添加到 PATH（如果使用 ~/.local 安装）
+
+如果安装到 `~/.local`，需要确保该路径在 PATH 中：
+
+```bash
+# 添加到 ~/.bashrc 或 ~/.zshrc
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+### 卸载
+
+```bash
+# 从系统卸载
+sudo rm /usr/local/bin/morning_call
+sudo rm /usr/local/bin/morning_call_gui
+sudo rm /usr/local/share/applications/morning_call.desktop
+sudo rm /usr/local/share/icons/hicolor/256x256/apps/morning_call.png
+
+# 或从 ~/.local 卸载
+rm ~/.local/bin/morning_call*
+rm ~/.local/share/applications/morning_call.desktop
+rm ~/.local/share/icons/hicolor/256x256/apps/morning_call.png
+
+# 更新桌面数据库
+update-desktop-database ~/.local/share/applications/ 2>/dev/null || true
+```
+
+### 开机自启动（可选）
+
+```bash
+# 方法1：通过桌面环境的"启动应用程序"设置添加
+
+# 方法2：手动创建 autostart 文件
+mkdir -p ~/.config/autostart
+cp /usr/local/share/applications/morning_call.desktop ~/.config/autostart/
+```
+
 ## 🚀 快速开始
 
 ### 首次运行
