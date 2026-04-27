@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "think-001",
+    "title": "沉没成本谬误",
+    "category": "Thinking",
+    "summary": "已经投入的成本不应该影响未来的决策",
+    "whyImportant": "避免因为过去的投入而做出不理性的决策，学会及时止损",
+    "actionSuggestion": "今天审视一个你因为'已经投入太多'而继续的项目，评估是否真的值得继续",
+    "source": "内置",
+    "baseScore": 0.85
+  },
+  {
+    "id": "think-002",
+    "title": "奥卡姆剃刀原理",
+    "category": "Thinking",
+    "summary": "如果有多个解释，最简单的往往是正确的",
+    "whyImportant": "减少思维复杂度，提高决策效率，避免过度解读",
+    "actionSuggestion": "遇到问题时先寻找最简单直接的解释，而不是复杂的阴谋论",
+    "source": "内置",
+    "baseScore": 0.80
+  },
+  {
+    "id": "think-003",
+    "title": "第一性原理思维",
+    "category": "Thinking",
+    "summary": "回到事物的本质，从基本真理出发推导",
+    "whyImportant": "突破思维定式，找到创新解决方案",
+    "actionSuggestion": "选择一个你习以为常的流程，问5次'为什么'找到根本原因",
+    "source": "内置",
+    "baseScore": 0.90
+  },
+  {
+    "id": "think-004",
+    "title": "确认偏误陷阱",
+    "category": "Thinking",
+    "summary": "我们倾向于寻找支持自己观点的证据",
+    "whyImportant": "避免一意孤行，保持开放心态接受不同意见",
+    "actionSuggestion": "今天主动寻找一个与你观点相反的论据，认真思考其合理性",
+    "source": "内置",
+    "baseScore": 0.82
+  },
+  {
+    "id": "think-005",
+    "title": "二八法则（帕累托法则）",
+    "category": "Thinking",
+    "summary": "80%的结果来自20%的努力",
+    "whyImportant": "专注于高价值活动，避免在低效事务上浪费时间",
+    "actionSuggestion": "列出今天的待办事项，标记出能产生80%价值的20%任务",
+    "source": "内置",
+    "baseScore": 0.88
+  },
+  {
+    "id": "think-006",
+    "title": "系统思维 vs 目标思维",
+    "category": "Thinking",
+    "summary": "建立系统比设定目标更重要",
+    "whyImportant": "系统能持续产生结果，而目标只是一次性的",
+    "actionSuggestion": "把一个目标转化为日常系统，比如'减肥10斤'改为'每天走8000步'",
+    "source": "内置",
+    "baseScore": 0.87
+  },
+  {
+    "id": "think-007",
+    "title": "损失厌恶心理",
+    "category": "Thinking",
+    "summary": "人们对损失的痛苦感受是收益快乐的2倍",
+    "whyImportant": "理解这种偏见可以帮助做出更理性的投资和决策",
+    "actionSuggestion": "评估一个你因为害怕损失而拖延的决定，计算实际风险",
+    "source": "内置",
+    "baseScore": 0.83
+  },
+  {
+    "id": "think-008",
+    "title": "思维的复利效应",
+    "category": "Thinking",
+    "summary": "每天进步1%，一年后是37倍的增长",
+    "whyImportant": "微小的持续改进会带来指数级的长期收益",
+    "actionSuggestion": "选择一个技能，制定每天提升1%的具体行动",
+    "source": "内置",
+    "baseScore": 0.91
+  },
+  {
+    "id": "think-009",
+    "title": "锚定效应",
+    "category": "Thinking",
+    "summary": "第一印象和初始信息会过度影响后续判断",
+    "whyImportant": "识别谈判和决策中的锚点，避免被操纵",
+    "actionSuggestion": "在做决定前，先独立思考，不要被第一个数字或建议锚定",
+    "source": "内置",
+    "baseScore": 0.81
+  },
+  {
+    "id": "think-010",
+    "title": "黑天鹅事件思维",
+    "category": "Thinking",
+    "summary": "小概率高影响的事件会改变一切",
+    "whyImportant": "为极端情况做准备，建立反脆弱系统",
+    "actionSuggestion": "思考你的工作或生活中可能出现的黑天鹅事件，准备应对方案",
+    "source": "内置",
+    "baseScore": 0.84
+  },
+  {
+    "id": "think-011",
+    "title": "延迟满足能力",
+    "category": "Thinking",
+    "summary": "能够抵制即时诱惑，为了更大目标等待",
+    "whyImportant": "这是成功人士的共同特质，决定长期成就",
+    "actionSuggestion": "今天遇到即时诱惑时，暂停10分钟再决定",
+    "source": "内置",
+    "baseScore": 0.86
+  },
+  {
+    "id": "think-012",
+    "title": "逆向思维",
+    "category": "Thinking",
+    "summary": "从反面思考问题常常更有效",
+    "whyImportant": "避免失败往往比追求成功更容易",
+    "actionSuggestion": "列出'如何确保今天失败'的清单，然后避免这些行为",
+    "source": "内置",
+    "baseScore": 0.85
+  },
+  {
+    "id": "think-013",
+    "title": "心流状态",
+    "category": "Thinking",
+    "summary": "全神贯注、忘我投入的最佳工作状态",
+    "whyImportant": "在心流中工作效率提升5倍以上",
+    "actionSuggestion": "为今天最重要的任务预留2小时不被打扰的时间块",
+    "source": "内置",
+    "baseScore": 0.89
+  },
+  {
+    "id": "think-014",
+    "title": "决策疲劳",
+    "category": "Thinking",
+    "summary": "做的决定越多，决策质量越下降",
+    "whyImportant": "理解为什么早晨做的决定通常更明智",
+    "actionSuggestion": "把重要决策安排在上午，建立日常流程减少琐碎决策",
+    "source": "内置",
+    "baseScore": 0.82
+  },
+  {
+    "id": "think-015",
+    "title": "增长型思维 vs 固定型思维",
+    "category": "Thinking",
+    "summary": "相信能力可以通过努力培养，而不是天生固定",
+    "whyImportant": "决定你是否愿意接受挑战和从失败中学习",
+    "actionSuggestion": "把'我不擅长这个'改为'我还不擅长这个'",
+    "source": "内置",
+    "baseScore": 0.88
+  },
+  {
+    "id": "think-016",
+    "title": "峰终定律",
+    "category": "Thinking",
+    "summary": "人们对体验的记忆由高峰和结束时刻决定",
+    "whyImportant": "优化关键时刻比整体时长更重要",
+    "actionSuggestion": "为今天的工作或会议设计一个强有力的结尾",
+    "source": "内置",
+    "baseScore": 0.83
+  },
+  {
+    "id": "think-017",
+    "title": "认知负荷理论",
+    "category": "Thinking",
+    "summary": "大脑的工作记忆容量有限，约7±2个单位",
+    "whyImportant": "理解为什么多任务处理会降低效率",
+    "actionSuggestion": "今天一次只专注一件事，完成后再切换",
+    "source": "内置",
+    "baseScore": 0.81
+  },
+  {
+    "id": "think-018",
+    "title": "边际效用递减",
+    "category": "Thinking",
+    "summary": "额外投入带来的收益会逐渐减少",
+    "whyImportant": "知道什么时候该停止，避免完美主义陷阱",
+    "actionSuggestion": "评估一个项目是否已达到80分，考虑是否值得追求完美",
+    "source": "内置",
+    "baseScore": 0.80
+  },
+  {
+    "id": "think-019",
+    "title": "复杂系统思维",
+    "category": "Thinking",
+    "summary": "系统的行为不等于各部分的简单叠加",
+    "whyImportant": "理解组织、市场等复杂系统的运作规律",
+    "actionSuggestion": "观察一个系统问题时，寻找反馈循环而非单一原因",
+    "source": "内置",
+    "baseScore": 0.84
+  },
+  {
+    "id": "think-020",
+    "title": "概率思维",
+    "category": "Thinking",
+    "summary": "用概率而非确定性来思考未来",
+    "whyImportant": "做出更好的风险决策，避免黑白思维",
+    "actionSuggestion": "对今天的预测加上概率：'有70%可能性...'而非'一定会...'",
+    "source": "内置",
+    "baseScore": 0.85
+  },
+  {
+    "id": "think-021",
+    "title": "专注力是21世纪的稀缺资源",
+    "category": "Thinking",
+    "summary": "在信息过载时代，注意力比时间更宝贵",
+    "whyImportant": "保护专注力就是保护生产力和创造力",
+    "actionSuggestion": "今天关闭所有非必要通知，设置3个专注时段",
+    "source": "内置",
+    "baseScore": 0.87
+  },
+  {
+    "id": "think-022",
+    "title": "思维模型工具箱",
+    "category": "Thinking",
+    "summary": "掌握多个学科的基本思维模型",
+    "whyImportant": "避免手里只有锤子，看什么都是钉子",
+    "actionSuggestion": "学习一个新领域的基本概念，丰富你的思维工具箱",
+    "source": "内置",
+    "baseScore": 0.86
+  },
+  {
+    "id": "think-023",
+    "title": "反馈循环意识",
+    "category": "Thinking",
+    "summary": "小的输入可能因为反馈循环而放大",
+    "whyImportant": "理解指数增长和系统性风险的来源",
+    "actionSuggestion": "识别你生活中的一个正反馈循环，思考如何利用它",
+    "source": "内置",
+    "baseScore": 0.82
+  },
+  {
+    "id": "think-024",
+    "title": "贝叶斯思维",
+    "category": "Thinking",
+    "summary": "根据新证据不断更新你的信念",
+    "whyImportant": "保持思维的灵活性，避免僵化的信念",
+    "actionSuggestion": "今天遇到新信息时，问自己：这如何改变我的看法？",
+    "source": "内置",
+    "baseScore": 0.83
+  },
+  {
+    "id": "think-025",
+    "title": "信息饮食习惯",
+    "category": "Thinking",
+    "summary": "像对待食物一样管理信息摄入",
+    "whyImportant": "垃圾信息会污染思维，就像垃圾食品伤害身体",
+    "actionSuggestion": "审查你的信息来源，删除3个低质量的订阅",
+    "source": "内置",
+    "baseScore": 0.84
+  },
+  {
+    "id": "think-026",
+    "title": "元认知能力",
+    "category": "Thinking",
+    "summary": "思考你的思考过程",
+    "whyImportant": "提升自我意识，优化思维方式",
+    "actionSuggestion": "今天记录你做决定的过程，反思哪些步骤可以改进",
+    "source": "内置",
+    "baseScore": 0.85
+  },
+  {
+    "id": "think-027",
+    "title": "长期主义",
+    "category": "Thinking",
+    "summary": "优化10年后的结果，而非10天后",
+    "whyImportant": "避免短期主义陷阱，建立持久竞争力",
+    "actionSuggestion": "问自己：10年后的我会感谢今天做的什么决定？",
+    "source": "内置",
+    "baseScore": 0.90
+  },
+  {
+    "id": "think-028",
+    "title": "机会成本思维",
+    "category": "Thinking",
+    "summary": "选择A就意味着放弃B的价值",
+    "whyImportant": "每个决定的真实成本是你放弃的最佳替代方案",
+    "actionSuggestion": "对今天的一个决定，明确列出你放弃的机会成本",
+    "source": "内置",
+    "baseScore": 0.82
+  },
+  {
+    "id": "think-029",
+    "title": "创造性破坏",
+    "category": "Thinking",
+    "summary": "旧的必须被摧毁，新的才能诞生",
+    "whyImportant": "接受变化和不确定性是进步的代价",
+    "actionSuggestion": "识别一个需要'破坏'的旧习惯或流程，开始改变",
+    "source": "内置",
+    "baseScore": 0.81
+  },
+  {
+    "id": "think-030",
+    "title": "认知多样性",
+    "category": "Thinking",
+    "summary": "不同背景和视角的人能产生更好的决策",
+    "whyImportant": "回音室效应会导致群体盲点",
+    "actionSuggestion": "今天寻求一个与你背景完全不同的人的意见",
+    "source": "内置",
+    "baseScore": 0.83
+  },
+  {
+    "id": "habit-001",
+    "title": "早起一杯水",
+    "category": "Habit",
+    "summary": "醒来后立即喝一杯温水",
+    "whyImportant": "补充夜间流失的水分，启动新陈代谢，帮助排毒",
+    "actionSuggestion": "今晚在床头放一杯水，明早起床第一件事就喝掉",
+    "source": "内置",
+    "baseScore": 0.80
+  },
+  {
+    "id": "habit-002",
+    "title": "番茄工作法",
+    "category": "Habit",
+    "summary": "25分钟专注工作 + 5分钟休息的循环",
+    "whyImportant": "保持专注力，防止疲劳，提高工作效率",
+    "actionSuggestion": "今天用番茄钟完成一个任务，体验专注的力量",
+    "source": "内置",
+    "baseScore": 0.88
+  },
+  {
+    "id": "habit-003",
+    "title": "每日复盘",
+    "category": "Habit",
+    "summary": "睡前花10分钟回顾今天的收获",
+    "whyImportant": "加深记忆，提取经验，促进持续成长",
+    "actionSuggestion": "今晚记录3个今天的成就和1个明天要改进的点",
+    "source": "内置",
+    "baseScore": 0.85
+  },
+  {
+    "id": "habit-004",
+    "title": "早晨锻炼",
+    "category": "Habit",
+    "summary": "起床后进行15-30分钟的运动",
+    "whyImportant": "提升能量水平，改善情绪，开启活力一天",
+    "actionSuggestion": "明早做10个深蹲和10个俯卧撑，开始你的健康之旅",
+    "source": "内置",
+    "baseScore": 0.87
+  },
+  {
+    "id": "habit-005",
+    "title": "睡前一小时不看屏幕",
+    "category": "Habit",
+    "summary": "睡觉前60分钟停止使用电子设备",
+    "whyImportant": "蓝光抑制褪黑素分泌，影响睡眠质量",
+    "actionSuggestion": "今晚9点后放下手机，用阅读或冥想代替",
+    "source": "内置",
+    "baseScore": 0.86
+  },
+  {
+    "id": "habit-006",
+    "title": "深度工作时段",
+    "category": "Habit",
+    "summary": "每天安排2-4小时不被打扰的专注时间",
+    "whyImportant": "高价值的认知工作需要连续的深度专注",
+    "actionSuggestion": "明天上午9-11点标记为深度工作时间，关闭所有通知",
+    "source": "内置",
+    "baseScore": 0.90
+  },
+  {
+    "id": "habit-007",
+    "title": "饭后散步15分钟",
+    "category": "Habit",
+    "summary": "每餐后轻度活动，促进消化",
+    "whyImportant": "降低血糖峰值，帮助消化，减少久坐危害",
+    "actionSuggestion": "今天午餐后出去走走，不要立即回到座位",
+    "source": "内置",
+    "baseScore": 0.79
+  },
+  {
+    "id": "habit-008",
+    "title": "每日阅读30分钟",
+    "category": "Habit",
+    "summary": "固定时间段阅读书籍或深度文章",
+    "whyImportant": "持续学习，拓展认知，一年可读完12-20本书",
+    "actionSuggestion": "今晚睡前读30分钟，把看短视频的时间用在这里",
+    "source": "内置",
+    "baseScore": 0.88
+  },
+  {
+    "id": "habit-009",
+    "title": "批量处理邮件",
+    "category": "Habit",
+    "summary": "每天只在固定时间段检查和回复邮件",
+    "whyImportant": "避免邮件打断工作流，减少注意力碎片化",
+    "actionSuggestion": "今天只在上午11点和下午4点检查邮件两次",
+    "source": "内置",
+    "baseScore": 0.83
+  },
+  {
+    "id": "habit-010",
+    "title": "晨间三件事",
+    "category": "Habit",
+    "summary": "每天早上确定今天最重要的三件事",
+    "whyImportant": "明确优先级，避免忙碌却无效的一天",
+    "actionSuggestion": "现在就写下明天的三件最重要的事",
+    "source": "内置",
+    "baseScore": 0.86
+  },
+  {
+    "id": "habit-011",
+    "title": "感恩日记",
+    "category": "Habit",
+    "summary": "每天记录3件值得感恩的事",
+    "whyImportant": "提升幸福感，培养积极心态，减少焦虑",
+    "actionSuggestion": "今晚睡前写下今天发生的3件好事",
+    "source": "内置",
+    "baseScore": 0.82
+  },
+  {
+    "id": "habit-012",
+    "title": "站立工作间隙",
+    "category": "Habit",
+    "summary": "每坐1小时，站起来活动5分钟",
+    "whyImportant": "减少久坐危害，预防颈椎和腰椎问题",
+    "actionSuggestion": "设置每小时一次的站立提醒，今天开始执行",
+    "source": "内置",
+    "baseScore": 0.81
+  },
+  {
+    "id": "habit-013",
+    "title": "冥想练习",
+    "category": "Habit",
+    "summary": "每天10分钟的正念冥想",
+    "whyImportant": "降低压力，提升专注力，改善情绪调节能力",
+    "actionSuggestion": "今天用冥想APP做一次5分钟的呼吸练习",
+    "source": "内置",
+    "baseScore": 0.84
+  },
+  {
+    "id": "habit-014",
+    "title": "健康零食准备",
+    "category": "Habit",
+    "summary": "提前准备坚果、水果等健康零食",
+    "whyImportant": "避免饥饿时选择不健康的快餐或零食",
+    "actionSuggestion": "今天买一些杏仁和苹果，放在办公室",
+    "source": "内置",
+    "baseScore": 0.78
+  },
+  {
+    "id": "habit-015",
+    "title": "睡眠时间固定",
+    "category": "Habit",
+    "summary": "每天同一时间上床睡觉和起床",
+    "whyImportant": "稳定的睡眠节律是高质量睡眠的基础",
+    "actionSuggestion": "设定23:00为固定就寝时间，坚持一周",
+    "source": "内置",
+    "baseScore": 0.87
+  },
+  {
+    "id": "habit-016",
+    "title": "学习新技能",
+    "category": "Habit",
+    "summary": "每周投入至少5小时学习一项新技能",
+    "whyImportant": "保持大脑活跃，提升职业竞争力，预防认知衰退",
+    "actionSuggestion": "选择一个你一直想学的技能，今天投入1小时",
+    "source": "内置",
+    "baseScore": 0.85
+  },
+  {
+    "id": "habit-017",
+    "title": "主动社交",
+    "category": "Habit",
+    "summary": "每周至少与朋友或家人进行一次深度交流",
+    "whyImportant": "社交连接是幸福感和心理健康的重要来源",
+    "actionSuggestion": "今天给一个很久没联系的朋友发条消息",
+    "source": "内置",
+    "baseScore": 0.80
+  },
+  {
+    "id": "habit-018",
+    "title": "极简主义整理",
+    "category": "Habit",
+    "summary": "定期清理不需要的物品，保持空间整洁",
+    "whyImportant": "减少视觉噪音，降低决策疲劳，提升专注力",
+    "actionSuggestion": "今天清理一个抽屉，扔掉或捐赠不需要的东西",
+    "source": "内置",
+    "baseScore": 0.81
+  },
+  {
+    "id": "habit-019",
+    "title": "提前规划明天",
+    "category": "Habit",
+    "summary": "每天睡前花5分钟规划明天的任务",
+    "whyImportant": "减少早晨的决策负担，提高第二天的执行力",
+    "actionSuggestion": "今晚列出明天的任务清单和时间安排",
+    "source": "内置",
+    "baseScore": 0.84
+  },
+  {
+    "id": "habit-020",
+    "title": "定期断网日",
+    "category": "Habit",
+    "summary": "每周安排半天完全断开网络",
+    "whyImportant": "重置注意力，减少信息焦虑，享受真实生活",
+    "actionSuggestion": "本周日上午关闭所有网络，做些线下活动",
+    "source": "内置",
+    "baseScore": 0.83
+  },
+  {
+    "id": "knowledge-001",
+    "title": "布隆过滤器",
+    "category": "Knowledge",
+    "summary": "一种用概率换取空间效率的数据结构",
+    "whyImportant": "理解如何在海量数据中快速判断元素是否存在",
+    "actionSuggestion": "了解这个算法如何应用在垃圾邮件过滤中",
+    "source": "内置",
+    "baseScore": 0.75
+  },
+  {
+    "id": "knowledge-002",
+    "title": "邓巴数字",
+    "category": "Knowledge",
+    "summary": "人类最多能维持约150个稳定社交关系",
+    "whyImportant": "理解社交网络的认知限制，优化人际关系质量",
+    "actionSuggestion": "评估你的社交圈，专注于最有价值的关系",
+    "source": "内置",
+    "baseScore": 0.82
+  },
+  {
+    "id": "knowledge-003",
+    "title": "热力学第二定律",
+    "category": "Knowledge",
+    "summary": "熵总是趋向于增加，系统会自发地走向混乱",
+    "whyImportant": "理解为什么维持秩序需要持续投入能量",
+    "actionSuggestion": "观察生活中熵增的例子，理解持续维护的重要性",
+    "source": "内置",
+    "baseScore": 0.78
+  },
+  {
+    "id": "knowledge-004",
+    "title": "复利的力量",
+    "category": "Knowledge",
+    "summary": "连续增长的指数效应远超线性增长",
+    "whyImportant": "理解长期投资和持续学习的巨大价值",
+    "actionSuggestion": "计算一个小习惯10年后的复利效应",
+    "source": "内置",
+    "baseScore": 0.90
+  },
+  {
+    "id": "knowledge-005",
+    "title": "网络效应",
+    "category": "Knowledge",
+    "summary": "产品价值随用户数量增加而增长",
+    "whyImportant": "理解为什么社交网络和平台经济如此强大",
+    "actionSuggestion": "思考你使用的产品中哪些具有网络效应",
+    "source": "内置",
+    "baseScore": 0.83
+  },
+  {
+    "id": "knowledge-006",
+    "title": "光合作用效率",
+    "category": "Knowledge",
+    "summary": "植物只能转化3-6%的太阳能为化学能",
+    "whyImportant": "理解能量转换效率，欣赏生命的精妙设计",
+    "actionSuggestion": "了解太阳能技术如何突破这个效率限制",
+    "source": "内置",
+    "baseScore": 0.76
+  },
+  {
+    "id": "knowledge-007",
+    "title": "幸存者偏差",
+    "category": "Knowledge",
+    "summary": "我们只看到成功者，忽略了更多失败案例",
+    "whyImportant": "避免盲目模仿成功故事，理解真实概率",
+    "actionSuggestion": "研究你所在领域的失败率，而不只是成功故事",
+    "source": "内置",
+    "baseScore": 0.85
+  },
+  {
+    "id": "knowledge-008",
+    "title": "多巴胺奖励机制",
+    "category": "Knowledge",
+    "summary": "大脑通过多巴胺强化行为模式",
+    "whyImportant": "理解上瘾和习惯形成的神经机制",
+    "actionSuggestion": "识别一个你想戒掉的坏习惯的多巴胺触发点",
+    "source": "内置",
+    "baseScore": 0.84
+  },
+  {
+    "id": "knowledge-009",
+    "title": "区块链的本质",
+    "category": "Knowledge",
+    "summary": "分布式不可篡改的账本技术",
+    "whyImportant": "理解去中心化信任机制的价值和局限",
+    "actionSuggestion": "了解区块链在供应链管理中的实际应用",
+    "source": "内置",
+    "baseScore": 0.79
+  },
+  {
+    "id": "knowledge-010",
+    "title": "抗生素耐药性",
+    "category": "Knowledge",
+    "summary": "细菌进化出抵抗抗生素的能力",
+    "whyImportant": "理解过度使用抗生素的长期危害",
+    "actionSuggestion": "承诺只在医生明确建议时使用抗生素",
+    "source": "内置",
+    "baseScore": 0.81
+  },
+  {
+    "id": "knowledge-011",
+    "title": "量子纠缠",
+    "category": "Knowledge",
+    "summary": "两个粒子的状态可以瞬间相互影响，无论距离多远",
+    "whyImportant": "挑战我们对现实的直觉理解",
+    "actionSuggestion": "了解量子通信如何利用这一现象实现安全加密",
+    "source": "内置",
+    "baseScore": 0.77
+  },
+  {
+    "id": "knowledge-012",
+    "title": "边际成本递减",
+    "category": "Knowledge",
+    "summary": "生产额外单位产品的成本逐渐降低",
+    "whyImportant": "理解规模经济和互联网商业模式",
+    "actionSuggestion": "思考哪些商业模式具有边际成本趋近于零的特性",
+    "source": "内置",
+    "baseScore": 0.80
+  },
+  {
+    "id": "knowledge-013",
+    "title": "神经可塑性",
+    "category": "Knowledge",
+    "summary": "大脑能够在整个生命周期中重组和形成新连接",
+    "whyImportant": "任何年龄都可以学习新技能，大脑不会'定型'",
+    "actionSuggestion": "开始学习一项新技能，相信大脑的适应能力",
+    "source": "内置",
+    "baseScore": 0.88
+  },
+  {
+    "id": "knowledge-014",
+    "title": "蝴蝶效应",
+    "category": "Knowledge",
+    "summary": "初始条件的微小变化可能导致巨大的长期差异",
+    "whyImportant": "理解复杂系统的不可预测性",
+    "actionSuggestion": "思考你的一个小决定可能带来的长期影响",
+    "source": "内置",
+    "baseScore": 0.82
+  },
+  {
+    "id": "knowledge-015",
+    "title": "间隔重复学习法",
+    "category": "Knowledge",
+    "summary": "在特定时间间隔复习能显著提高记忆保持",
+    "whyImportant": "最有效的学习方法之一",
+    "actionSuggestion": "用Anki等工具实践间隔重复记忆法",
+    "source": "内置",
+    "baseScore": 0.86
+  },
+  {
+    "id": "knowledge-016",
+    "title": "摩尔定律的终结",
+    "category": "Knowledge",
+    "summary": "芯片晶体管密度每18个月翻倍的规律正在放缓",
+    "whyImportant": "理解计算能力增长的物理极限",
+    "actionSuggestion": "了解量子计算等新技术如何成为替代方案",
+    "source": "内置",
+    "baseScore": 0.78
+  },
+  {
+    "id": "knowledge-017",
+    "title": "肠道微生物组",
+    "category": "Knowledge",
+    "summary": "人体内有数万亿微生物，影响健康、情绪和认知",
+    "whyImportant": "理解'第二大脑'对整体健康的重要性",
+    "actionSuggestion": "增加饮食中的发酵食品和膳食纤维",
+    "source": "内置",
+    "baseScore": 0.83
+  },
+  {
+    "id": "knowledge-018",
+    "title": "比特币的挖矿机制",
+    "category": "Knowledge",
+    "summary": "通过算力竞争获得记账权和奖励",
+    "whyImportant": "理解去中心化货币的安全性基础",
+    "actionSuggestion": "了解工作量证明（PoW）和权益证明（PoS）的区别",
+    "source": "内置",
+    "baseScore": 0.77
+  },
+  {
+    "id": "knowledge-019",
+    "title": "CRISPR基因编辑",
+    "category": "Knowledge",
+    "summary": "精准修改DNA序列的革命性技术",
+    "whyImportant": "可能治愈遗传疾病，也带来伦理挑战",
+    "actionSuggestion": "了解CRISPR在农业和医疗中的应用案例",
+    "source": "内置",
+    "baseScore": 0.84
+  },
+  {
+    "id": "knowledge-020",
+    "title": "睡眠周期",
+    "category": "Knowledge",
+    "summary": "完整睡眠周期约90分钟，包含多个阶段",
+    "whyImportant": "优化睡眠时长为90分钟的倍数能提升睡眠质量",
+    "actionSuggestion": "计算你的理想睡眠时间（如7.5小时而非8小时）",
+    "source": "内置",
+    "baseScore": 0.85
+  },
+  {
+    "id": "knowledge-021",
+    "title": "注意力经济",
+    "category": "Knowledge",
+    "summary": "在信息过载时代，注意力成为稀缺资源",
+    "whyImportant": "理解互联网商业模式如何竞争你的注意力",
+    "actionSuggestion": "审视哪些APP在'窃取'你的注意力，考虑卸载",
+    "source": "内置",
+    "baseScore": 0.86
+  },
+  {
+    "id": "knowledge-022",
+    "title": "黑体辐射定律",
+    "category": "Knowledge",
+    "summary": "物体温度决定其辐射能量的波长分布",
+    "whyImportant": "普朗克由此开创了量子力学",
+    "actionSuggestion": "理解为什么加热的铁从红变黄再变白",
+    "source": "内置",
+    "baseScore": 0.74
+  },
+  {
+    "id": "knowledge-023",
+    "title": "价格歧视策略",
+    "category": "Knowledge",
+    "summary": "对不同消费者收取不同价格以最大化利润",
+    "whyImportant": "理解为什么同一产品你可能付更高价格",
+    "actionSuggestion": "识别日常生活中的价格歧视案例（机票、电影票等）",
+    "source": "内置",
+    "baseScore": 0.79
+  },
+  {
+    "id": "knowledge-024",
+    "title": "端到端加密",
+    "category": "Knowledge",
+    "summary": "只有通信双方能解密信息，服务商也无法窥探",
+    "whyImportant": "保护隐私的关键技术",
+    "actionSuggestion": "使用Signal等端到端加密的通信工具",
+    "source": "内置",
+    "baseScore": 0.81
+  },
+  {
+    "id": "knowledge-025",
+    "title": "认知失调理论",
+    "category": "Knowledge",
+    "summary": "人们会调整信念以减少内心矛盾",
+    "whyImportant": "理解为什么人们会自我合理化不当行为",
+    "actionSuggestion": "观察自己何时在为行为找借口而非改变行为",
+    "source": "内置",
+    "baseScore": 0.83
+  },
+  {
+    "id": "knowledge-026",
+    "title": "马太效应",
+    "category": "Knowledge",
+    "summary": "强者越强，弱者越弱的累积优势现象",
+    "whyImportant": "理解社会不平等的动力机制",
+    "actionSuggestion": "思考如何在早期建立累积优势",
+    "source": "内置",
+    "baseScore": 0.82
+  },
+  {
+    "id": "knowledge-027",
+    "title": "线粒体DNA遗传",
+    "category": "Knowledge",
+    "summary": "只从母亲遗传，追溯人类进化的重要工具",
+    "whyImportant": "理解为什么可以追踪到'线粒体夏娃'",
+    "actionSuggestion": "了解线粒体疾病及其遗传模式",
+    "source": "内置",
+    "baseScore": 0.75
+  },
+  {
+    "id": "knowledge-028",
+    "title": "供需平衡原理",
+    "category": "Knowledge",
+    "summary": "价格由供给和需求的交点决定",
+    "whyImportant": "理解市场经济的基本运作机制",
+    "actionSuggestion": "观察疫情期间口罩价格变化背后的供需关系",
+    "source": "内置",
+    "baseScore": 0.80
+  },
+  {
+    "id": "knowledge-029",
+    "title": "表观遗传学",
+    "category": "Knowledge",
+    "summary": "基因表达可以被环境改变而不改变DNA序列",
+    "whyImportant": "生活方式影响基因表达，部分可遗传",
+    "actionSuggestion": "了解压力、饮食如何影响基因表达",
+    "source": "内置",
+    "baseScore": 0.84
+  },
+  {
+    "id": "knowledge-030",
+    "title": "费米悖论",
+    "category": "Knowledge",
+    "summary": "宇宙如此浩瀚，为何没发现外星文明？",
+    "whyImportant": "引发对人类在宇宙中位置的深刻思考",
+    "actionSuggestion": "了解'大过滤器'理论及其对人类未来的启示",
+    "source": "内置",
+    "baseScore": 0.78
+  },
+  {
+    "id": "trend-001",
+    "title": "大语言模型重塑内容创作",
+    "category": "Trend",
+    "summary": "GPT-4、Claude等AI正在改变写作、编程、设计行业",
+    "whyImportant": "掌握AI工具将成为职场必备技能",
+    "actionSuggestion": "今天用ChatGPT完成一项工作任务，体验AI助手的能力",
+    "source": "内置",
+    "baseScore": 0.92
+  },
+  {
+    "id": "trend-002",
+    "title": "碳中和目标加速",
+    "category": "Trend",
+    "summary": "中国承诺2060年实现碳中和，全球行动加速",
+    "whyImportant": "绿色产业将迎来巨大机遇",
+    "actionSuggestion": "了解新能源、碳捕获等相关行业的投资机会",
+    "source": "内置",
+    "baseScore": 0.87
+  },
+  {
+    "id": "trend-003",
+    "title": "Web3与去中心化互联网",
+    "category": "Trend",
+    "summary": "基于区块链的新一代互联网正在萌芽",
+    "whyImportant": "可能重新定义数字所有权和在线身份",
+    "actionSuggestion": "了解NFT、DAO等Web3概念的实际应用",
+    "source": "内置",
+    "baseScore": 0.81
+  },
+  {
+    "id": "trend-004",
+    "title": "远程办公常态化",
+    "category": "Trend",
+    "summary": "混合办公模式成为新标准",
+    "whyImportant": "重塑工作与生活的边界，影响城市格局",
+    "actionSuggestion": "优化你的远程工作环境和工具栈",
+    "source": "内置",
+    "baseScore": 0.83
+  },
+  {
+    "id": "trend-005",
+    "title": "合成生物学突破",
+    "category": "Trend",
+    "summary": "人造肉、生物燃料等技术走向商业化",
+    "whyImportant": "可能解决粮食安全和环境问题",
+    "actionSuggestion": "尝试一次植物肉产品，体验食品科技进步",
+    "source": "内置",
+    "baseScore": 0.79
+  },
+  {
+    "id": "trend-006",
+    "title": "电动车市场爆发",
+    "category": "Trend",
+    "summary": "2025年全球电动车销量预计占新车20%以上",
+    "whyImportant": "汽车产业百年未有之大变局",
+    "actionSuggestion": "关注电池技术、充电基础设施相关机会",
+    "source": "内置",
+    "baseScore": 0.85
+  },
+  {
+    "id": "trend-007",
+    "title": "元宇宙探索持续",
+    "category": "Trend",
+    "summary": "VR/AR技术进步推动虚拟世界发展",
+    "whyImportant": "可能改变社交、娱乐、教育方式",
+    "actionSuggestion": "体验一次VR应用，了解沉浸式技术的潜力",
+    "source": "内置",
+    "baseScore": 0.78
+  },
+  {
+    "id": "trend-008",
+    "title": "量子计算商业化加速",
+    "category": "Trend",
+    "summary": "IBM、Google等推出量子计算云服务",
+    "whyImportant": "可能破解现有加密体系，革新药物研发",
+    "actionSuggestion": "了解量子计算在你所在行业的潜在应用",
+    "source": "内置",
+    "baseScore": 0.80
+  },
+  {
+    "id": "trend-009",
+    "title": "基因治疗进入临床",
+    "category": "Trend",
+    "summary": "多种基因疗法获批，治愈遗传疾病成为可能",
+    "whyImportant": "医疗模式从治疗症状转向修复根源",
+    "actionSuggestion": "了解CAR-T、CRISPR在癌症治疗中的应用",
+    "source": "内置",
+    "baseScore": 0.82
+  },
+  {
+    "id": "trend-010",
+    "title": "数字人民币推广",
+    "category": "Trend",
+    "summary": "央行数字货币试点范围不断扩大",
+    "whyImportant": "可能改变支付体系和金融监管",
+    "actionSuggestion": "如果你所在城市有试点，注册并尝试使用",
+    "source": "内置",
+    "baseScore": 0.81
+  },
+  {
+    "id": "trend-011",
+    "title": "边缘计算兴起",
+    "category": "Trend",
+    "summary": "数据处理从云端向设备端迁移",
+    "whyImportant": "降低延迟，提升隐私保护",
+    "actionSuggestion": "了解5G+边缘计算在工业互联网中的应用",
+    "source": "内置",
+    "baseScore": 0.77
+  },
+  {
+    "id": "trend-012",
+    "title": "可再生能源成本持续下降",
+    "category": "Trend",
+    "summary": "太阳能、风能已低于化石燃料成本",
+    "whyImportant": "能源转型加速，影响地缘政治格局",
+    "actionSuggestion": "考虑家庭安装太阳能板的可行性和收益",
+    "source": "内置",
+    "baseScore": 0.84
+  },
+  {
+    "id": "trend-013",
+    "title": "低代码/无代码平台普及",
+    "category": "Trend",
+    "summary": "非技术人员也能开发应用程序",
+    "whyImportant": "降低软件开发门槛，加速数字化转型",
+    "actionSuggestion": "尝试用Notion、Airtable等工具搭建工作流",
+    "source": "内置",
+    "baseScore": 0.79
+  },
+  {
+    "id": "trend-014",
+    "title": "脑机接口临床试验",
+    "category": "Trend",
+    "summary": "Neuralink等公司开始人体试验",
+    "whyImportant": "可能帮助瘫痪病人重获活动能力",
+    "actionSuggestion": "了解脑机接口的医疗和增强应用前景",
+    "source": "内置",
+    "baseScore": 0.80
+  },
+  {
+    "id": "trend-015",
+    "title": "自动驾驶L4级商业化",
+    "category": "Trend",
+    "summary": "无人出租车、无人配送在部分城市运营",
+    "whyImportant": "改变出行方式，影响物流和交通行业",
+    "actionSuggestion": "如果你所在城市有试点，预约体验无人驾驶出租车",
+    "source": "内置",
+    "baseScore": 0.83
+  },
+  {
+    "id": "trend-016",
+    "title": "个性化医疗普及",
+    "category": "Trend",
+    "summary": "基于基因组数据的精准治疗方案",
+    "whyImportant": "提高治疗效果，减少副作用",
+    "actionSuggestion": "了解基因检测服务，评估对自己的价值",
+    "source": "内置",
+    "baseScore": 0.81
+  },
+  {
+    "id": "trend-017",
+    "title": "ESG投资成为主流",
+    "category": "Trend",
+    "summary": "环境、社会、治理因素影响投资决策",
+    "whyImportant": "企业可持续发展成为核心竞争力",
+    "actionSuggestion": "评估你的投资组合中ESG评分较高的资产比例",
+    "source": "内置",
+    "baseScore": 0.78
+  },
+  {
+    "id": "trend-018",
+    "title": "数字孪生技术应用",
+    "category": "Trend",
+    "summary": "创建物理系统的虚拟复制品进行模拟",
+    "whyImportant": "提升制造、城市规划等领域的效率",
+    "actionSuggestion": "了解数字孪生在智慧城市建设中的作用",
+    "source": "内置",
+    "baseScore": 0.76
+  },
+  {
+    "id": "trend-019",
+    "title": "老龄化社会应对",
+    "category": "Trend",
+    "summary": "养老科技、银发经济快速发展",
+    "whyImportant": "影响社保、医疗、消费等多个领域",
+    "actionSuggestion": "考虑养老规划，了解长期护理保险等产品",
+    "source": "内置",
+    "baseScore": 0.82
+  },
+  {
+    "id": "trend-020",
+    "title": "隐私计算技术发展",
+    "category": "Trend",
+    "summary": "在保护隐私前提下实现数据共享和计算",
+    "whyImportant": "平衡数据利用和隐私保护的矛盾",
+    "actionSuggestion": "了解联邦学习、同态加密等技术原理",
+    "source": "内置",
+    "baseScore": 0.79
+  }
+]

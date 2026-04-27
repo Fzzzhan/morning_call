@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Morning Call
+Name[zh_CN]=晨间认知补给器
+Comment=Daily cognitive supplement tool
+Comment[zh_CN]=每天为你提供10条精选的思维启发、好习惯、知识点和趋势洞察
+Icon=morning_call
+Exec=morning_call_gui
+Terminal=false
+Categories=Utility;Education;Qt;
+Keywords=morning;cognitive;learning;knowledge;
+StartupNotify=true
+StartupWMClass=morning_call_gui
