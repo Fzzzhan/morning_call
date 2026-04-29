@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(morning_call VERSION 1.0.0 LANGUAGES CXX)
+project(awake VERSION 1.0.0 LANGUAGES CXX)
 
 # Suppress RPATH warnings when using anaconda Qt5
 cmake_policy(SET CMP0042 NEW)
@@ -239,19 +239,19 @@ install(TARGETS ${PROJECT_NAME} ${PROJECT_NAME}_gui
 )
 
 # Install .desktop file
-install(FILES resources/morning_call.desktop
+install(FILES resources/awake.desktop
     DESTINATION share/applications
 )
 
 # Install icon
-install(FILES resources/icons/morning_call.png
+install(FILES resources/icons/awake.png
     DESTINATION share/icons/hicolor/256x256/apps
 )
 
 # ===== Summary =====
 
 message(STATUS "==============================================")
-message(STATUS "Morning Call Configuration Summary")
+message(STATUS "Awake Configuration Summary")
 message(STATUS "==============================================")
 message(STATUS "C++ Standard: ${CMAKE_CXX_STANDARD}")
 message(STATUS "Build Type: ${CMAKE_BUILD_TYPE}")

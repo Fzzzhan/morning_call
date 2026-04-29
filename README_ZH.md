@@ -1,4 +1,4 @@
-# Morning Call - 晨间认知补给器
+# Awake - 晨间认知补给器
 
 [English](README.md) | 中文
 
@@ -48,15 +48,15 @@ cmake -B build -G Ninja
 cmake --build build
 
 # 运行控制台版本
-./build/morning_call
+./build/awake
 
 # 运行 GUI 版本（推荐）
-./build/morning_call_gui
+./build/awake_gui
 ```
 
 编译完成后会生成两个程序：
-- **morning_call** - 控制台版本，在终端显示内容
-- **morning_call_gui** - GUI 版本，图形化界面
+- **awake** - 控制台版本，在终端显示内容
+- **awake_gui** - GUI 版本，图形化界面
 
 ## 📦 系统安装
 
@@ -74,19 +74,19 @@ cmake --install build --prefix ~/.local
 
 **安装内容：**
 - 可执行文件 → `/usr/local/bin/` 或 `~/.local/bin/`
-  - `morning_call` - 控制台版本
-  - `morning_call_gui` - GUI 版本
-- 桌面启动器 → `/usr/local/share/applications/morning_call.desktop`
-- 应用图标 → `/usr/local/share/icons/hicolor/256x256/apps/morning_call.png`
+  - `awake` - 控制台版本
+  - `awake_gui` - GUI 版本
+- 桌面启动器 → `/usr/local/share/applications/awake.desktop`
+- 应用图标 → `/usr/local/share/icons/hicolor/256x256/apps/awake.png`
 
 ### 安装后使用
 
 ```bash
 # 在任何目录直接运行
-morning_call_gui
+awake_gui
 
 # 或从应用菜单启动
-# 打开应用程序 → Utility → Morning Call
+# 打开应用程序 → Utility → Awake
 ```
 
 ### 添加到 PATH（如果使用 ~/.local 安装）
@@ -103,15 +103,15 @@ source ~/.bashrc
 
 ```bash
 # 从系统卸载
-sudo rm /usr/local/bin/morning_call
-sudo rm /usr/local/bin/morning_call_gui
-sudo rm /usr/local/share/applications/morning_call.desktop
-sudo rm /usr/local/share/icons/hicolor/256x256/apps/morning_call.png
+sudo rm /usr/local/bin/awake
+sudo rm /usr/local/bin/awake_gui
+sudo rm /usr/local/share/applications/awake.desktop
+sudo rm /usr/local/share/icons/hicolor/256x256/apps/awake.png
 
 # 或从 ~/.local 卸载
-rm ~/.local/bin/morning_call*
-rm ~/.local/share/applications/morning_call.desktop
-rm ~/.local/share/icons/hicolor/256x256/apps/morning_call.png
+rm ~/.local/bin/awake*
+rm ~/.local/share/applications/awake.desktop
+rm ~/.local/share/icons/hicolor/256x256/apps/awake.png
 
 # 更新桌面数据库
 update-desktop-database ~/.local/share/applications/ 2>/dev/null || true
@@ -124,7 +124,7 @@ update-desktop-database ~/.local/share/applications/ 2>/dev/null || true
 
 # 方法2：手动创建 autostart 文件
 mkdir -p ~/.config/autostart
-cp /usr/local/share/applications/morning_call.desktop ~/.config/autostart/
+cp /usr/local/share/applications/awake.desktop ~/.config/autostart/
 ```
 
 ## 🚀 快速开始
@@ -132,12 +132,12 @@ cp /usr/local/share/applications/morning_call.desktop ~/.config/autostart/
 ### 首次运行
 
 ```bash
-cd /home/fengze/Github/morning_call
-./build/morning_call
+cd /home/fengze/Github/awake
+./build/awake
 ```
 
 应用将：
-1. 初始化数据库（位于 `~/.local/share/morning_call/morning_call.db`）
+1. 初始化数据库（位于 `~/.local/share/awake/awake.db`）
 2. 加载种子内容（100条高质量中文内容）
 3. 生成今日的10条内容
 4. 在终端打印内容
@@ -146,7 +146,7 @@ cd /home/fengze/Github/morning_call
 ### 输出示例
 
 ```
-启动 Morning Call 应用...
+启动 Awake 应用...
 ✅ 数据库初始化成功
 📚 加载种子内容: resources/seed_content.json
 ✅ Feed 生成器初始化成功
@@ -154,7 +154,7 @@ cd /home/fengze/Github/morning_call
 ✅ 今日内容生成成功（10 条）
 
 ========================================
-   晨间认知补给器 - Morning Call
+   晨间认知补给器 - Awake
 ========================================
 日期: 2026-04-24
 内容数量: 10
@@ -173,14 +173,14 @@ cd /home/fengze/Github/morning_call
 🎯 开始你的高效一天！
 
 ⏰ 定时刷新已启动，刷新时间: 08:00
-🚀 Morning Call 正在运行...
+🚀 Awake 正在运行...
 按 Ctrl+C 退出
 ```
 
 ## 📁 项目结构
 
 ```
-morning_call/
+awake/
 ├── CMakeLists.txt          # 构建配置
 ├── README.md               # 本文件
 ├── resources/
@@ -295,12 +295,12 @@ RSS 内容会根据关键词自动分类：
 
 ### 数据库位置
 ```
-~/.local/share/morning_call/morning_call.db
+~/.local/share/awake/awake.db
 ```
 
 ### 日志位置
 ```
-~/.local/share/morning_call/logs/morning_call.log
+~/.local/share/awake/logs/awake.log
 ```
 
 ### 数据库表结构
@@ -404,14 +404,14 @@ manager.addProvider(std::make_shared<RSSContentProvider>(feedUrls));
 ### 查看日志
 
 ```bash
-tail -f ~/.local/share/morning_call/logs/morning_call.log
+tail -f ~/.local/share/awake/logs/awake.log
 ```
 
 ### 清空数据库重新开始
 
 ```bash
-rm ~/.local/share/morning_call/morning_call.db
-./build/morning_call
+rm ~/.local/share/awake/awake.db
+./build/awake
 ```
 
 ### 测试内容生成

@@ -33,16 +33,16 @@ void MainWindow::setUserProfile(const UserProfile& profile) {
 }
 
 void MainWindow::setupUI() {
-    setWindowTitle("晨间认知补给器 - Morning Call");
+    setWindowTitle("晨间认知补给器 - Awake");
     setMinimumSize(800, 600);
     resize(900, 700);
 
     // Load and set window icon
     QIcon appIcon;
-    if (QFile::exists("resources/icons/morning_call.png")) {
-        appIcon = QIcon("resources/icons/morning_call.png");
-    } else if (QFile::exists("/usr/share/icons/hicolor/256x256/apps/morning_call.png")) {
-        appIcon = QIcon("/usr/share/icons/hicolor/256x256/apps/morning_call.png");
+    if (QFile::exists("resources/icons/awake.png")) {
+        appIcon = QIcon("resources/icons/awake.png");
+    } else if (QFile::exists("/usr/share/icons/hicolor/256x256/apps/awake.png")) {
+        appIcon = QIcon("/usr/share/icons/hicolor/256x256/apps/awake.png");
     } else {
         appIcon = QIcon::fromTheme("applications-system");
     }
@@ -146,17 +146,17 @@ void MainWindow::setupTrayIcon() {
 
     // Set tray icon (use 32x32 for better clarity in system tray)
     QIcon trayIconImg;
-    if (QFile::exists("resources/icons/morning_call_32.png")) {
-        trayIconImg = QIcon("resources/icons/morning_call_32.png");
-    } else if (QFile::exists("resources/icons/morning_call.png")) {
-        trayIconImg = QIcon("resources/icons/morning_call.png");
-    } else if (QFile::exists("/usr/share/icons/hicolor/256x256/apps/morning_call.png")) {
-        trayIconImg = QIcon("/usr/share/icons/hicolor/256x256/apps/morning_call.png");
+    if (QFile::exists("resources/icons/awake_32.png")) {
+        trayIconImg = QIcon("resources/icons/awake_32.png");
+    } else if (QFile::exists("resources/icons/awake.png")) {
+        trayIconImg = QIcon("resources/icons/awake.png");
+    } else if (QFile::exists("/usr/share/icons/hicolor/256x256/apps/awake.png")) {
+        trayIconImg = QIcon("/usr/share/icons/hicolor/256x256/apps/awake.png");
     } else {
         trayIconImg = QIcon::fromTheme("applications-system");
     }
     trayIcon_->setIcon(trayIconImg);
-    trayIcon_->setToolTip("晨间认知补给器 - Morning Call");
+    trayIcon_->setToolTip("晨间认知补给器 - Awake");
 
     // Create tray menu
     trayMenu_ = new QMenu(this);
@@ -362,7 +362,7 @@ void MainWindow::closeEvent(QCloseEvent* event) {
         hide();
         trayIcon_->showMessage(
             "后台运行",
-            "Morning Call 已最小化到系统托盘",
+            "Awake 已最小化到系统托盘",
             QSystemTrayIcon::Information,
             2000
         );

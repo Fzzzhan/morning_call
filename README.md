@@ -1,4 +1,4 @@
-# Morning Call - Daily Cognitive Supplement
+# Awake - Daily Cognitive Supplement
 
 English | [中文](README_ZH.md)
 
@@ -48,15 +48,15 @@ cmake -B build -G Ninja
 cmake --build build
 
 # Run console version
-./build/morning_call
+./build/awake
 
 # Run GUI version (recommended)
-./build/morning_call_gui
+./build/awake_gui
 ```
 
 After building, two programs are generated:
-- **morning_call** - Console version, displays content in terminal
-- **morning_call_gui** - GUI version with graphical interface
+- **awake** - Console version, displays content in terminal
+- **awake_gui** - GUI version with graphical interface
 
 ## 📦 System Installation
 
@@ -74,19 +74,19 @@ cmake --install build --prefix ~/.local
 
 **Installation includes:**
 - Executables → `/usr/local/bin/` or `~/.local/bin/`
-  - `morning_call` - Console version
-  - `morning_call_gui` - GUI version
-- Desktop launcher → `/usr/local/share/applications/morning_call.desktop`
-- Application icon → `/usr/local/share/icons/hicolor/256x256/apps/morning_call.png`
+  - `awake` - Console version
+  - `awake_gui` - GUI version
+- Desktop launcher → `/usr/local/share/applications/awake.desktop`
+- Application icon → `/usr/local/share/icons/hicolor/256x256/apps/awake.png`
 
 ### Usage After Installation
 
 ```bash
 # Run directly from any directory
-morning_call_gui
+awake_gui
 
 # Or launch from application menu
-# Open Applications → Utility → Morning Call
+# Open Applications → Utility → Awake
 ```
 
 ### Add to PATH (if using ~/.local installation)
@@ -103,15 +103,15 @@ source ~/.bashrc
 
 ```bash
 # Uninstall from system
-sudo rm /usr/local/bin/morning_call
-sudo rm /usr/local/bin/morning_call_gui
-sudo rm /usr/local/share/applications/morning_call.desktop
-sudo rm /usr/local/share/icons/hicolor/256x256/apps/morning_call.png
+sudo rm /usr/local/bin/awake
+sudo rm /usr/local/bin/awake_gui
+sudo rm /usr/local/share/applications/awake.desktop
+sudo rm /usr/local/share/icons/hicolor/256x256/apps/awake.png
 
 # Or uninstall from ~/.local
-rm ~/.local/bin/morning_call*
-rm ~/.local/share/applications/morning_call.desktop
-rm ~/.local/share/icons/hicolor/256x256/apps/morning_call.png
+rm ~/.local/bin/awake*
+rm ~/.local/share/applications/awake.desktop
+rm ~/.local/share/icons/hicolor/256x256/apps/awake.png
 
 # Update desktop database
 update-desktop-database ~/.local/share/applications/ 2>/dev/null || true
@@ -124,7 +124,7 @@ update-desktop-database ~/.local/share/applications/ 2>/dev/null || true
 
 # Method 2: Manually create autostart file
 mkdir -p ~/.config/autostart
-cp /usr/local/share/applications/morning_call.desktop ~/.config/autostart/
+cp /usr/local/share/applications/awake.desktop ~/.config/autostart/
 ```
 
 ## 🚀 Quick Start
@@ -132,12 +132,12 @@ cp /usr/local/share/applications/morning_call.desktop ~/.config/autostart/
 ### First Run
 
 ```bash
-cd /home/fengze/Github/morning_call
-./build/morning_call
+cd /home/fengze/Github/awake
+./build/awake
 ```
 
 The application will:
-1. Initialize database (located at `~/.local/share/morning_call/morning_call.db`)
+1. Initialize database (located at `~/.local/share/awake/awake.db`)
 2. Load seed content (100 high-quality Chinese items)
 3. Generate today's 10 items
 4. Print content in terminal
@@ -146,7 +146,7 @@ The application will:
 ### Output Example
 
 ```
-Starting Morning Call application...
+Starting Awake application...
 ✅ Database initialized successfully
 📚 Loading seed content: resources/seed_content.json
 ✅ Feed generator initialized successfully
@@ -154,7 +154,7 @@ Starting Morning Call application...
 ✅ Today's content generated successfully (10 items)
 
 ========================================
-   Morning Call - Daily Cognitive Supplement
+   Awake - Daily Cognitive Supplement
 ========================================
 Date: 2026-04-24
 Content count: 10
@@ -173,14 +173,14 @@ Score: 0.850000
 🎯 Start your productive day!
 
 ⏰ Scheduled refresh activated, refresh time: 08:00
-🚀 Morning Call is running...
+🚀 Awake is running...
 Press Ctrl+C to exit
 ```
 
 ## 📁 Project Structure
 
 ```
-morning_call/
+awake/
 ├── CMakeLists.txt          # Build configuration
 ├── README.md               # This file
 ├── resources/
@@ -295,12 +295,12 @@ RSS content is automatically categorized based on keywords:
 
 ### Database Location
 ```
-~/.local/share/morning_call/morning_call.db
+~/.local/share/awake/awake.db
 ```
 
 ### Log Location
 ```
-~/.local/share/morning_call/logs/morning_call.log
+~/.local/share/awake/logs/awake.log
 ```
 
 ### Database Schema
@@ -404,14 +404,14 @@ Current version is command-line, future additions:
 ### View Logs
 
 ```bash
-tail -f ~/.local/share/morning_call/logs/morning_call.log
+tail -f ~/.local/share/awake/logs/awake.log
 ```
 
 ### Clear Database and Restart
 
 ```bash
-rm ~/.local/share/morning_call/morning_call.db
-./build/morning_call
+rm ~/.local/share/awake/awake.db
+./build/awake
 ```
 
 ### Test Content Generation

@@ -14,12 +14,12 @@ std::string Database::getDatabasePath() {
         return "";
     }
     
-    std::string dataDir = std::string(home) + "/.local/share/morning_call";
+    std::string dataDir = std::string(home) + "/.local/share/awake";
     
     // Create directory if it doesn't exist
     std::filesystem::create_directories(dataDir);
     
-    return dataDir + "/morning_call.db";
+    return dataDir + "/awake.db";
 }
 
 bool Database::initialize() {

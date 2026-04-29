@@ -9,13 +9,13 @@ std::shared_ptr<spdlog::logger> Logger::logger_ = nullptr;
 std::string Logger::getLogPath() {
     const char* home = std::getenv("HOME");
     if (!home) {
-        return "/tmp/morning_call.log";
+        return "/tmp/awake.log";
     }
 
-    std::string logDir = std::string(home) + "/.local/share/morning_call/logs";
+    std::string logDir = std::string(home) + "/.local/share/awake/logs";
     std::filesystem::create_directories(logDir);
 
-    return logDir + "/morning_call.log";
+    return logDir + "/awake.log";
 }
 
 void Logger::initialize() {
@@ -36,7 +36,7 @@ void Logger::initialize() {
 
         // Create logger with both sinks
         std::vector<spdlog::sink_ptr> sinks{file_sink, console_sink};
-        logger_ = std::make_shared<spdlog::logger>("morning_call", sinks.begin(), sinks.end());
+        logger_ = std::make_shared<spdlog::logger>("awake", sinks.begin(), sinks.end());
 
         // Set log level
         logger_->set_level(spdlog::level::debug);
@@ -48,7 +48,7 @@ void Logger::initialize() {
         logger_->info("Logger initialized successfully");
     } catch (const spdlog::spdlog_ex& ex) {
         // Fallback to console-only logger
-        logger_ = spdlog::stdout_color_mt("morning_call");
+        logger_ = spdlog::stdout_color_mt("awake");
         logger_->error("Log file initialization failed: {}", ex.what());
     }
 }
