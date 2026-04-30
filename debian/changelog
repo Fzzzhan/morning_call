@@ -1,0 +1,58 @@
+awake (1.0.2-1~noble1) noble; urgency=medium
+
+  * New upstream release 1.0.2
+  * Fix: Install seed_content.json to system location
+  * Fix: Update resource path lookup to check system directories
+  * Resolves missing seed content file after apt installation
+
+ -- Fengze Han <torresmilito22@gmail.com>  Wed, 30 Apr 2026 15:30:00 +0800
+
+awake (1.0.1-1~noble1) noble; urgency=medium
+
+  * New upstream release 1.0.1
+  * Fix PPA build: prioritize system packages over CPM
+  * Add find_package() fallback for nlohmann_json and spdlog
+  * Fixes network-disabled build environment
+
+ -- Fengze Han <torresmilito22@gmail.com>  Wed, 30 Apr 2026 14:26:00 +0800
+
+awake (1.0.0-4~noble1) noble; urgency=medium
+
+  * Fix PPA build: prioritize system packages over CPM
+  * Add find_package() fallback for nlohmann_json and spdlog
+  * Fixes network-disabled build environment
+
+ -- Fengze Han <torresmilito22@gmail.com>  Wed, 30 Apr 2026 13:55:00 +0800
+
+awake (1.0.0-3~noble1) noble; urgency=medium
+
+  * Use default debhelper build configuration
+  * Remove all CMake generator overrides
+
+ -- Fengze Han <torresmilito22@gmail.com>  Wed, 30 Apr 2026 13:15:00 +0800
+
+awake (1.0.0-2~noble1) noble; urgency=medium
+
+  * Backport to Ubuntu 24.04 (noble)
+
+ -- Fengze Han <torresmilito22@gmail.com>  Wed, 30 Apr 2026 13:05:00 +0800
+
+awake (1.0.0-2) jammy; urgency=medium
+
+  * Fix CMake build configuration for PPA
+  * Remove conflicting Ninja generator flag
+
+ -- Fengze Han <torresmilito22@gmail.com>  Wed, 30 Apr 2026 12:45:00 +0800
+
+awake (1.0.0-1) jammy; urgency=medium
+
+  * Initial release
+  * Smart content generation with scoring algorithm
+  * User preference learning system
+  * Automatic daily refresh
+  * Qt5 GUI with system tray support
+  * RSS subscription support
+  * Cross-platform notification sounds
+  * SQLite database persistence
+
+ -- Fengze Han <torresmilito22@gmail.com>  Wed, 30 Apr 2026 11:00:00 +0800

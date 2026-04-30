@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(awake VERSION 1.0.1 LANGUAGES CXX)
+project(awake VERSION 1.0.2 LANGUAGES CXX)
 
 # Suppress RPATH warnings when using anaconda Qt5
 cmake_policy(SET CMP0042 NEW)
@@ -298,6 +298,11 @@ install(FILES resources/awake.desktop
 # Install icon
 install(FILES resources/icons/awake.png
     DESTINATION share/icons/hicolor/256x256/apps
+)
+
+# Install seed content
+install(FILES resources/seed_content.json
+    DESTINATION share/awake/resources
 )
 
 # ===== Summary =====

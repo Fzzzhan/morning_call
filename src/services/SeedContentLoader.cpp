@@ -8,11 +8,13 @@
 SeedContentLoader::SeedContentLoader() = default;
 
 std::string SeedContentLoader::getDefaultSeedPath() {
-    // Check relative to executable
+    // Check multiple locations: system install, relative to executable
     std::string paths[] = {
-        "resources/seed_content.json",
-        "../resources/seed_content.json",
-        "../../resources/seed_content.json"
+        "/usr/share/awake/resources/seed_content.json",  // System installation
+        "/usr/local/share/awake/resources/seed_content.json",  // Local installation
+        "resources/seed_content.json",  // Development: relative to build
+        "../resources/seed_content.json",  // Development: one level up
+        "../../resources/seed_content.json"  // Development: two levels up
     };
 
     for (const auto& path : paths) {
