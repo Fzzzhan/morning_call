@@ -1,0 +1,40 @@
+Source: awake
+Section: utils
+Priority: optional
+Maintainer: Fengze Han <fengze.han@example.com>
+Build-Depends: debhelper-compat (= 13),
+               cmake (>= 3.16),
+               ninja-build,
+               qtbase5-dev,
+               qttools5-dev,
+               qttools5-dev-tools,
+               libsqlite3-dev,
+               nlohmann-json3-dev,
+               libspdlog-dev
+Standards-Version: 4.6.0
+Homepage: https://github.com/Fzzzhan/awake
+Vcs-Browser: https://github.com/Fzzzhan/awake
+Vcs-Git: https://github.com/Fzzzhan/awake.git
+Rules-Requires-Root: no
+
+Package: awake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+         libqt5core5a,
+         libqt5gui5,
+         libqt5widgets5,
+         libqt5network5,
+         libsqlite3-0,
+         pulseaudio-utils | alsa-utils
+Description: Daily cognitive supplement tool with smart content generation
+ Awake is a desktop application that provides 10 curated items daily including
+ thinking insights, good habits, knowledge points, and trend observations.
+ .
+ Features:
+  - Smart content generation with scoring algorithm
+  - User preference learning system
+  - Automatic daily refresh
+  - Qt5 GUI with system tray support
+  - RSS subscription support
+  - Cross-platform notification sounds
+  - SQLite database persistence

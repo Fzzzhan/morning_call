@@ -1,0 +1,12 @@
+awake (1.0.0-1) unstable; urgency=medium
+
+  * Initial release
+  * Smart content generation with scoring algorithm
+  * User preference learning system
+  * Automatic daily refresh
+  * Qt5 GUI with system tray support
+  * RSS subscription support
+  * Cross-platform notification sounds
+  * SQLite database persistence
+
+ -- Fengze Han <fengze.han@example.com>  Wed, 30 Apr 2026 11:00:00 +0800
