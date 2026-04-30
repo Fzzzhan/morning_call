@@ -34,26 +34,38 @@ include(cmake/CPM.cmake)
 
 # ===== CPM Dependencies =====
 
-# nlohmann_json
-CPMAddPackage(
-    NAME nlohmann_json
-    VERSION 3.11.3
-    GITHUB_REPOSITORY nlohmann/json
-    OPTIONS
-        "JSON_BuildTests OFF"
-        "JSON_Install OFF"
-)
+# Try system packages first (for PPA builds where network is disabled)
+find_package(nlohmann_json 3.2.0 QUIET)
+find_package(spdlog 1.8.0 QUIET)
 
-# spdlog
-CPMAddPackage(
-    NAME spdlog
-    VERSION 1.13.0
-    GITHUB_REPOSITORY gabime/spdlog
-    OPTIONS
-        "SPDLOG_BUILD_EXAMPLE OFF"
-        "SPDLOG_BUILD_TESTS OFF"
-        "SPDLOG_INSTALL OFF"
-)
+# nlohmann_json - use CPM only if not found
+if(NOT nlohmann_json_FOUND)
+    CPMAddPackage(
+        NAME nlohmann_json
+        VERSION 3.11.3
+        GITHUB_REPOSITORY nlohmann/json
+        OPTIONS
+            "JSON_BuildTests OFF"
+            "JSON_Install OFF"
+    )
+else()
+    message(STATUS "Using system nlohmann_json")
+endif()
+
+# spdlog - use CPM only if not found
+if(NOT spdlog_FOUND)
+    CPMAddPackage(
+        NAME spdlog
+        VERSION 1.13.0
+        GITHUB_REPOSITORY gabime/spdlog
+        OPTIONS
+            "SPDLOG_BUILD_EXAMPLE OFF"
+            "SPDLOG_BUILD_TESTS OFF"
+            "SPDLOG_INSTALL OFF"
+    )
+else()
+    message(STATUS "Using system spdlog")
+endif()
 
 # SQLite3 - Download amalgamation for headers
 CPMAddPackage(
