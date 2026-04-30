@@ -2,7 +2,9 @@
 
 English | [中文](README_ZH.md)
 
-A desktop application based on C++20 and Qt6 that provides 10 curated items daily including thinking insights, good habits, knowledge points, and trend observations.
+A desktop application based on C++20 and Qt5 that provides 10 curated items daily including thinking insights, good habits, knowledge points, and trend observations.
+
+**Current Version: 1.0.2**
 
 ## 🌟 Features
 
@@ -17,7 +19,21 @@ A desktop application based on C++20 and Qt6 that provides 10 curated items dail
 
 ## 📦 Installation
 
-### Homebrew (macOS/Linux) - Recommended
+### APT (Ubuntu/Debian) - Recommended for Linux
+
+```bash
+# Add PPA repository
+sudo add-apt-repository ppa:fzzzzzz/awake
+sudo apt update
+
+# Install
+sudo apt install awake
+
+# Run
+awake_gui
+```
+
+### Homebrew (macOS/Linux)
 
 ```bash
 # Add tap
@@ -442,8 +458,8 @@ printFeed(feed);
 
 ## ❓ FAQ
 
-### Q: Can't find Qt6 during build?
-A: Ensure qt6-base-dev is installed, check with `apt list --installed | grep qt6`.
+### Q: Can't find Qt5 during build?
+A: Ensure qtbase5-dev is installed, check with `apt list --installed | grep qt5`.
 
 ### Q: Can't find seed content file at runtime?
 A: Ensure `resources/seed_content.json` exists at the relative path from the running directory.

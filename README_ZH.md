@@ -2,7 +2,9 @@
 
 [English](README.md) | 中文
 
-一个基于C++20和Qt6的桌面应用，每天为你提供10条精选的思维启发、好习惯、知识点和趋势洞察。
+一个基于C++20和Qt5的桌面应用，每天为你提供10条精选的思维启发、好习惯、知识点和趋势洞察。
+
+**当前版本：1.0.2**
 
 ## 🌟 功能特点
 
@@ -17,7 +19,21 @@
 
 ## 📦 安装方式
 
-### Homebrew (macOS/Linux) - 推荐
+### APT (Ubuntu/Debian) - Linux 推荐
+
+```bash
+# 添加 PPA 源
+sudo add-apt-repository ppa:fzzzzzz/awake
+sudo apt update
+
+# 安装
+sudo apt install awake
+
+# 运行
+awake_gui
+```
+
+### Homebrew (macOS/Linux)
 
 ```bash
 # 添加 tap
@@ -442,8 +458,8 @@ printFeed(feed);
 
 ## ❓ 常见问题
 
-### Q: 编译时找不到Qt6？
-A: 确保安装了qt6-base-dev，可以用 `apt list --installed | grep qt6` 检查。
+### Q: 编译时找不到Qt5？
+A: 确保安装了qtbase5-dev，可以用 `apt list --installed | grep qt5` 检查。
 
 ### Q: 运行时找不到种子内容文件？
 A: 确保 `resources/seed_content.json` 存在，并且在运行目录的相对路径下。
